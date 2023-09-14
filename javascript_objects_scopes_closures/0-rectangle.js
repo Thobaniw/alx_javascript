@@ -1,9 +1,10 @@
-// Create an empty class that defines a rectangle//
 class Rectangle {
-    constructor(){
-
+    constructor() {
+      // Constructor can be empty or include initialization logic
     }
-}
-// create an instance of rectangle//
-const r1 = new Rectangle();
-console.log(r1);
+  }
+  
+  // Create an instance of Rectangle
+  const r1 = new Rectangle();
+  console.log(r1); // This should print: Rectangle {}
+  
