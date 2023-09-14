@@ -1,10 +1,11 @@
 class Rectangle {
-    constructor() {
-      // Constructor can be empty or include initialization logic
-    }
+    // Constructor can be empty or include initialization logic
   }
   
-  console.log(`${new Rectangle()} [Function: Rectangle]`);
+  const r1 = new Rectangle();
+  console.log(r1); // This should print: Rectangle {}
+  console.log(`[Function: ${r1.constructor.name}]`); // This should print: [Function: Rectangle]
+  
   
   
   
