@@ -4,7 +4,7 @@ class Rectangle {
       this.height = height;
     }
   }
-  module.exports = Rectangle; // export a class
+  module.export = Rectangle; // export a class
   const Rectangle = require('./rectangle.js'); // Import the class
 
 
