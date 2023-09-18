@@ -1,6 +1,2 @@
-// write a function that returns addition two intergers //
-function add(a, b) {
-    return a + b;
-}
-
-console.log(add(4, 85));
+#!/usr/bin/node
+exports.add = (a, b) => a + b;
